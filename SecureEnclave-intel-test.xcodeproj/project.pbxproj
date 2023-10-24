@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEED631D2ADD79A7001DC896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED631C2ADD79A7001DC896 /* AppDelegate.swift */; };
+		AEED631F2ADD79A7001DC896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED631E2ADD79A7001DC896 /* ViewController.swift */; };
+		AEED63212ADD79A8001DC896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEED63202ADD79A8001DC896 /* Assets.xcassets */; };
+		AEED63242ADD79A8001DC896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEED63222ADD79A8001DC896 /* Main.storyboard */; };
+		AEED632F2ADD79A8001DC896 /* SecureEnclave_intel_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED632E2ADD79A8001DC896 /* SecureEnclave_intel_testTests.swift */; };
+		AEED63392ADD79A8001DC896 /* SecureEnclave_intel_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED63382ADD79A8001DC896 /* SecureEnclave_intel_testUITests.swift */; };
+		AEED633B2ADD79A8001DC896 /* SecureEnclave_intel_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED633A2ADD79A8001DC896 /* SecureEnclave_intel_testUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEED632B2ADD79A8001DC896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEED63112ADD79A7001DC896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEED63182ADD79A7001DC896;
+			remoteInfo = "SecureEnclave-intel-test";
+		};
+		AEED63352ADD79A8001DC896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEED63112ADD79A7001DC896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEED63182ADD79A7001DC896;
+			remoteInfo = "SecureEnclave-intel-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEED63192ADD79A7001DC896 /* SecureEnclave-intel-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SecureEnclave-intel-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEED631C2ADD79A7001DC896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEED631E2ADD79A7001DC896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEED63202ADD79A8001DC896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEED63232ADD79A8001DC896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEED63252ADD79A8001DC896 /* SecureEnclave_intel_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecureEnclave_intel_test.entitlements; sourceTree = "<group>"; };
+		AEED632A2ADD79A8001DC896 /* SecureEnclave-intel-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SecureEnclave-intel-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEED632E2ADD79A8001DC896 /* SecureEnclave_intel_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclave_intel_testTests.swift; sourceTree = "<group>"; };
+		AEED63342ADD79A8001DC896 /* SecureEnclave-intel-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SecureEnclave-intel-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEED63382ADD79A8001DC896 /* SecureEnclave_intel_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclave_intel_testUITests.swift; sourceTree = "<group>"; };
+		AEED633A2ADD79A8001DC896 /* SecureEnclave_intel_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclave_intel_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEED63162ADD79A7001DC896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEED63272ADD79A8001DC896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEED63312ADD79A8001DC896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEED63102ADD79A7001DC896 = {
+			isa = PBXGroup;
+			children = (
+				AEED631B2ADD79A7001DC896 /* SecureEnclave-intel-test */,
+				AEED632D2ADD79A8001DC896 /* SecureEnclave-intel-testTests */,
+				AEED63372ADD79A8001DC896 /* SecureEnclave-intel-testUITests */,
+				AEED631A2ADD79A7001DC896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEED631A2ADD79A7001DC896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEED63192ADD79A7001DC896 /* SecureEnclave-intel-test.app */,
+				AEED632A2ADD79A8001DC896 /* SecureEnclave-intel-testTests.xctest */,
+				AEED63342ADD79A8001DC896 /* SecureEnclave-intel-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEED631B2ADD79A7001DC896 /* SecureEnclave-intel-test */ = {
+			isa = PBXGroup;
+			children = (
+				AEED631C2ADD79A7001DC896 /* AppDelegate.swift */,
+				AEED631E2ADD79A7001DC896 /* ViewController.swift */,
+				AEED63202ADD79A8001DC896 /* Assets.xcassets */,
+				AEED63222ADD79A8001DC896 /* Main.storyboard */,
+				AEED63252ADD79A8001DC896 /* SecureEnclave_intel_test.entitlements */,
+			);
+			path = "SecureEnclave-intel-test";
+			sourceTree = "<group>";
+		};
+		AEED632D2ADD79A8001DC896 /* SecureEnclave-intel-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEED632E2ADD79A8001DC896 /* SecureEnclave_intel_testTests.swift */,
+			);
+			path = "SecureEnclave-intel-testTests";
+			sourceTree = "<group>";
+		};
+		AEED63372ADD79A8001DC896 /* SecureEnclave-intel-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEED63382ADD79A8001DC896 /* SecureEnclave_intel_testUITests.swift */,
+				AEED633A2ADD79A8001DC896 /* SecureEnclave_intel_testUITestsLaunchTests.swift */,
+			);
+			path = "SecureEnclave-intel-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEED63182ADD79A7001DC896 /* SecureEnclave-intel-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEED633E2ADD79A8001DC896 /* Build configuration list for PBXNativeTarget "SecureEnclave-intel-test" */;
+			buildPhases = (
+				AEED63152ADD79A7001DC896 /* Sources */,
+				AEED63162ADD79A7001DC896 /* Frameworks */,
+				AEED63172ADD79A7001DC896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SecureEnclave-intel-test";
+			productName = "SecureEnclave-intel-test";
+			productReference = AEED63192ADD79A7001DC896 /* SecureEnclave-intel-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEED63292ADD79A8001DC896 /* SecureEnclave-intel-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEED63412ADD79A8001DC896 /* Build configuration list for PBXNativeTarget "SecureEnclave-intel-testTests" */;
+			buildPhases = (
+				AEED63262ADD79A8001DC896 /* Sources */,
+				AEED63272ADD79A8001DC896 /* Frameworks */,
+				AEED63282ADD79A8001DC896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEED632C2ADD79A8001DC896 /* PBXTargetDependency */,
+			);
+			name = "SecureEnclave-intel-testTests";
+			productName = "SecureEnclave-intel-testTests";
+			productReference = AEED632A2ADD79A8001DC896 /* SecureEnclave-intel-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEED63332ADD79A8001DC896 /* SecureEnclave-intel-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEED63442ADD79A8001DC896 /* Build configuration list for PBXNativeTarget "SecureEnclave-intel-testUITests" */;
+			buildPhases = (
+				AEED63302ADD79A8001DC896 /* Sources */,
+				AEED63312ADD79A8001DC896 /* Frameworks */,
+				AEED63322ADD79A8001DC896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEED63362ADD79A8001DC896 /* PBXTargetDependency */,
+			);
+			name = "SecureEnclave-intel-testUITests";
+			productName = "SecureEnclave-intel-testUITests";
+			productReference = AEED63342ADD79A8001DC896 /* SecureEnclave-intel-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEED63112ADD79A7001DC896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AEED63182ADD79A7001DC896 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AEED63292ADD79A8001DC896 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AEED63182ADD79A7001DC896;
+					};
+					AEED63332ADD79A8001DC896 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AEED63182ADD79A7001DC896;
+					};
+				};
+			};
+			buildConfigurationList = AEED63142ADD79A7001DC896 /* Build configuration list for PBXProject "SecureEnclave-intel-test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEED63102ADD79A7001DC896;
+			productRefGroup = AEED631A2ADD79A7001DC896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEED63182ADD79A7001DC896 /* SecureEnclave-intel-test */,
+				AEED63292ADD79A8001DC896 /* SecureEnclave-intel-testTests */,
+				AEED63332ADD79A8001DC896 /* SecureEnclave-intel-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEED63172ADD79A7001DC896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEED63212ADD79A8001DC896 /* Assets.xcassets in Resources */,
+				AEED63242ADD79A8001DC896 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEED63282ADD79A8001DC896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEED63322ADD79A8001DC896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEED63152ADD79A7001DC896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEED631F2ADD79A7001DC896 /* ViewController.swift in Sources */,
+				AEED631D2ADD79A7001DC896 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEED63262ADD79A8001DC896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEED632F2ADD79A8001DC896 /* SecureEnclave_intel_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEED63302ADD79A8001DC896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEED63392ADD79A8001DC896 /* SecureEnclave_intel_testUITests.swift in Sources */,
+				AEED633B2ADD79A8001DC896 /* SecureEnclave_intel_testUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEED632C2ADD79A8001DC896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEED63182ADD79A7001DC896 /* SecureEnclave-intel-test */;
+			targetProxy = AEED632B2ADD79A8001DC896 /* PBXContainerItemProxy */;
+		};
+		AEED63362ADD79A8001DC896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEED63182ADD79A7001DC896 /* SecureEnclave-intel-test */;
+			targetProxy = AEED63352ADD79A8001DC896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEED63222ADD79A8001DC896 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEED63232ADD79A8001DC896 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEED633C2ADD79A8001DC896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEED633D2ADD79A8001DC896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AEED633F2ADD79A8001DC896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SecureEnclave-intel-test/SecureEnclave_intel_test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.training.SecureEnclave-intel-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AEED63402ADD79A8001DC896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SecureEnclave-intel-test/SecureEnclave_intel_test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.training.SecureEnclave-intel-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AEED63422ADD79A8001DC896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.training.SecureEnclave-intel-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEnclave-intel-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureEnclave-intel-test";
+			};
+			name = Debug;
+		};
+		AEED63432ADD79A8001DC896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.training.SecureEnclave-intel-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEnclave-intel-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureEnclave-intel-test";
+			};
+			name = Release;
+		};
+		AEED63452ADD79A8001DC896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.training.SecureEnclave-intel-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SecureEnclave-intel-test";
+			};
+			name = Debug;
+		};
+		AEED63462ADD79A8001DC896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.couchbase.training.SecureEnclave-intel-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SecureEnclave-intel-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEED63142ADD79A7001DC896 /* Build configuration list for PBXProject "SecureEnclave-intel-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEED633C2ADD79A8001DC896 /* Debug */,
+				AEED633D2ADD79A8001DC896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEED633E2ADD79A8001DC896 /* Build configuration list for PBXNativeTarget "SecureEnclave-intel-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEED633F2ADD79A8001DC896 /* Debug */,
+				AEED63402ADD79A8001DC896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEED63412ADD79A8001DC896 /* Build configuration list for PBXNativeTarget "SecureEnclave-intel-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEED63422ADD79A8001DC896 /* Debug */,
+				AEED63432ADD79A8001DC896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEED63442ADD79A8001DC896 /* Build configuration list for PBXNativeTarget "SecureEnclave-intel-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEED63452ADD79A8001DC896 /* Debug */,
+				AEED63462ADD79A8001DC896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEED63112ADD79A7001DC896 /* Project object */;
+}
